@@ -7,7 +7,6 @@ class Solution:
         if len(nums) > 100:
             return 0
 
-
         for num in nums:
             if num < 1 or num > 100:
                 return 0
@@ -38,4 +37,3 @@ else:
     value = value.split(",")
     output = sol.numIdenticalPairs(list(map(int, value)))
     print(output)
-
